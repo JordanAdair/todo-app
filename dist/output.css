@@ -808,7 +808,7 @@ video {
 }
 
 .bg-desktopLightBg{
-  background-image: url('../../public/assets/bg-desktop-light.jpg');
+  background-image: url('../../assets/bg-desktop-light.jpg');
 }
 
 .bg-cover{
@@ -1047,7 +1047,7 @@ video {
 }
 
 .dark .dark\:bg-desktopDarkBg{
-  background-image: url('../../public/assets/bg-desktop-dark.jpg');
+  background-image: url('../../assets/bg-desktop-dark.jpg');
 }
 
 .dark .dark\:text-lightBlue100{

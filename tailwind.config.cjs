@@ -26,8 +26,8 @@ module.exports = {
 			josefinSans: "Josefin Sans",
 		},
 		backgroundImage: {
-			desktopDarkBg: "url('../../public/assets/bg-desktop-dark.jpg')",
-			desktopLightBg: "url('../../public/assets/bg-desktop-light.jpg')",
+			desktopDarkBg: "url('../../assets/bg-desktop-dark.jpg')",
+			desktopLightBg: "url('../../assets/bg-desktop-light.jpg')",
 		},
 	},
 	plugins: [],
