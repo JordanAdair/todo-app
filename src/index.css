@@ -27,7 +27,7 @@
 }
 
 .checkBox:checked::after {
-	content: url("../../public/assets/icon-check.svg");
+	content: url("public/assets/icon-check.svg");
 	position: absolute;
 	left: 0.35em;
 	top: -0.05em;
