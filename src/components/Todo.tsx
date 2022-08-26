@@ -23,7 +23,7 @@ export const Todo = ({ index, todo, toggleComplete, handleDelete }: Props) => {
 					checked={todo.completed ? true : false}
 				/>
 				<label
-					className="absolute left-10 top-0 dark:text-lightBlue200 peer-checked:line-through peer-checked:text-gray-400 dark:peer-checked:text-gray-500 select-none"
+					className=" top-0 dark:text-lightBlue200 peer-checked:line-through peer-checked:text-gray-400 dark:peer-checked:text-gray-500 select-none"
 					htmlFor={`${todo.id}`}
 				>
 					{todo.title}
