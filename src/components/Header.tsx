@@ -9,7 +9,7 @@ const Header = (props: Props) => {
 	return (
 		<div className="mt-5">
 			<div className="flex justify-between select-none">
-				<h1 className=" font-josefinSans text-4xl text-lightBlue100 font-bold">
+				<h1 className="font-josefinSans text-4xl text-lightBlue100 font-bold">
 					T O D O
 				</h1>
 				<span

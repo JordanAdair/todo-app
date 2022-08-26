@@ -32,8 +32,9 @@ const CreateTodo = (props: Props) => {
 			onSubmit={handleSubmit}
 		>
 			<input
-				className="w-full mr-3 dark:bg-darkBlue500 bg-white focus:outline-none focus-visible:outline dark:text-lightBlue200 text-gray-800 placeholder-gray-500"
+				className="w-full mr-3 dark:bg-darkBlue500 bg-gray-100 focus:outline-none focus-visible:outline dark:text-lightBlue200 text-gray-800 placeholder-gray-500"
 				type="text"
+				maxLength={60}
 				placeholder="Create a new todo..."
 				value={title}
 				name="text"

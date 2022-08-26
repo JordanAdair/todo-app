@@ -28,13 +28,13 @@ const SignIn = () => {
 	};
 
 	return (
-		<div>
-			<button
-				onClick={signInWithGoogle}
-				className="bar-style | flex justify-center dark:text-lightBlue100 text-gray-700"
-			>
+		<div className="flex justify-center">
+			<button className="bar-style | max-w-[50vw] mt-5 dark:text-lightBlue100 text-gray-700 cursor-default">
 				Please&nbsp;
-				<span className="bar-hover-style | underline text-blue-600 dark:text-blue-400">
+				<span
+					onClick={signInWithGoogle}
+					className="bar-hover-style | underline text-blue-600 dark:text-blue-400 cursor-pointer"
+				>
 					sign in with Google
 				</span>
 				&nbsp;to get started!

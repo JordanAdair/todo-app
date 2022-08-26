@@ -6,7 +6,7 @@
 
 @layer components {
 	.bar-style {
-		@apply w-full dark:bg-darkBlue500 bg-white shadow-lg font-josefinSans py-[1.15rem] px-5;
+		@apply w-full dark:bg-darkBlue500 bg-gray-100 shadow-lg font-josefinSans py-[1.15rem] px-5;
 	}
 
 	.bar-text-style {

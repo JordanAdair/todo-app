@@ -556,7 +556,7 @@ video {
 .bar-style{
   width: 100%;
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
   padding-top: 1.15rem;
   padding-bottom: 1.15rem;
   padding-left: 1.25rem;
@@ -610,28 +610,12 @@ video {
   position: absolute;
 }
 
-.relative{
-  position: relative;
-}
-
-.left-10{
-  left: 2.5rem;
-}
-
-.top-0{
-  top: 0px;
-}
-
 .-z-10{
   z-index: -10;
 }
 
 .float-right{
   float: right;
-}
-
-.float-left{
-  float: left;
 }
 
 .my-3{
@@ -714,8 +698,28 @@ video {
   min-width: 22em;
 }
 
+.max-w-\[50vw\]{
+  max-width: 50vw;
+}
+
+.max-w-none{
+  max-width: none;
+}
+
+.max-w-0{
+  max-width: 0rem;
+}
+
+.max-w-lg{
+  max-width: 32rem;
+}
+
 .cursor-pointer{
   cursor: pointer;
+}
+
+.cursor-default{
+  cursor: default;
 }
 
 .select-none{
@@ -748,6 +752,10 @@ video {
 
 .self-center{
   align-self: center;
+}
+
+.overflow-hidden{
+  overflow: hidden;
 }
 
 .overflow-scroll{
@@ -797,14 +805,19 @@ video {
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
-.bg-gray-100{
+.bg-gray-200{
   --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-gray-100{
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
 .bg-desktopLightBg{
@@ -813,18 +826,6 @@ video {
 
 .bg-cover{
   background-size: cover;
-}
-
-.bg-contain{
-  background-size: contain;
-}
-
-.bg-center{
-  background-position: center;
-}
-
-.bg-no-repeat{
-  background-repeat: no-repeat;
 }
 
 .px-3{
@@ -840,10 +841,6 @@ video {
 .py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.align-top{
-  vertical-align: top;
 }
 
 .font-josefinSans{

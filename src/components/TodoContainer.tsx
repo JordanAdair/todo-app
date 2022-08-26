@@ -1,5 +1,5 @@
 import SortingTray from "./SortingTray";
-import TodoList from "./TodoList";
+import Todo from "./Todo";
 
 type Props = {
 	todos: any;
@@ -19,15 +19,17 @@ const TodoContainer = ({
 	clearCompleted,
 }: Props) => {
 	return (
-		<div className="relative flex flex-col">
-			<div className="flex flex-col rounded-md drop-shadow-lg">
-				<TodoList
-					todos={todos}
+		<div className="overflow-hidden rounded-md drop-shadow-lg">
+			{todos.map((todo: any, index: any) => (
+				<Todo
+					key={todo.id}
+					index={index}
+					todo={todo}
 					toggleComplete={toggleComplete}
 					handleDelete={handleDelete}
 				/>
-				<SortingTray itemsLeft={itemsLeft} clearCompleted={clearCompleted} />
-			</div>
+			))}
+			<SortingTray itemsLeft={itemsLeft} clearCompleted={clearCompleted} />
 		</div>
 	);
 };
