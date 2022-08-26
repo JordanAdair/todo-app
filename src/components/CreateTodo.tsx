@@ -38,6 +38,7 @@ const CreateTodo = (props: Props) => {
 				value={title}
 				name="text"
 				onChange={handleChange}
+				autoComplete="off"
 			/>
 			<button className="bar-hover-style text-gray-500 hover:text-gray-800">
 				Add

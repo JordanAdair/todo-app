@@ -1,9 +1,3 @@
-import { Draggable } from "react-beautiful-dnd";
-import { useDraggableInPortal } from "./../hooks/useDraggableInPortal";
-import { doc, updateDoc } from "firebase/firestore";
-
-import { firestore } from "./../constants/firebase";
-
 type Props = {
 	index: any;
 	todo: any;
