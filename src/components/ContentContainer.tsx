@@ -133,8 +133,8 @@ const ContentContainer = (props: Props) => {
 			querySnapshot.forEach((d) => {
 				const docRef = doc(firestore, "todos", d.id);
 				deleteDoc(docRef);
-				unsub();
 			});
+			unsub();
 		});
 		return () => unsub();
 	};
